@@ -16,6 +16,11 @@ pipeline{
                     allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
                 }
             }
+            stage('archive'){
+                steps{
+                    archiveArtifacts artifacts: '**/*.*'
+                }
+            }
         
     }
 }

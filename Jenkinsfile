@@ -1,21 +1,21 @@
 pipeline{
-    agent any{
+    agent any
         stages{
-            stage("npm init"){
+            stage('npm init'){
                 steps{
                     bat label: '', script: 'npm install'
                 }
             }
-            stage("start tests"){
+            stage('start tests'){
                 steps{
                     bat label: '', returnStatus: true, script: 'npm run start'
                 }
             }
-            stage("allure reports"){
+            stage('allure reports'){
                 steps{
                     allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
                 }
             }
-        }
+        
     }
 }

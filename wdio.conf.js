@@ -55,10 +55,10 @@ exports.config = {
         maxInstances: 5,
         browserName: 'chrome'
     }
-            , {
-            maxInstances: 5,
-            browserName: 'firefox'
-        }
+        //     , {
+        //     maxInstances: 5,
+        //     browserName: 'firefox'
+        // }
     ],
     //
     // ===================
@@ -97,7 +97,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     
-    //services: ['selenium-standalone'],//
+    services: ['selenium-standalone'],//
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

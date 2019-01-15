@@ -1,0 +1,128 @@
+{
+  "uid" : "cd80753e1499df4c",
+  "name" : "Typetest",
+  "fullName" : "my webdriverio tests.Typetest",
+  "historyId" : "2ed8c650b7f2489392c1f8dea69e41ff",
+  "time" : {
+    "start" : 1547220264664,
+    "stop" : 1547220266906,
+    "duration" : 2242
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1547220264666,
+        "stop" : 1547220264699,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c8d983074712466",
+        "name" : "Request",
+        "source" : "1c8d983074712466.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "faca6b4739cc7f5f",
+        "name" : "Response",
+        "source" : "faca6b4739cc7f5f.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/0.04985536447450367-1/clear",
+      "time" : {
+        "start" : 1547220264748,
+        "stop" : 1547220264801,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/0.04985536447450367-1/value",
+      "time" : {
+        "start" : 1547220264807,
+        "stop" : 1547220264906,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5083f4cfcbee4d0",
+        "name" : "Request",
+        "source" : "f5083f4cfcbee4d0.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typetest"
+  }, {
+    "name" : "package",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd80753e1499df4c.json",
+  "parameterValues" : [ "chrome" ]
+}

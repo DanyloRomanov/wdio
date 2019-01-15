@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "my webdriverio tests",
+    "children" : [ {
+      "name" : "Github test",
+      "uid" : "3ff0ae4bfd2329a5",
+      "parentUid" : "a86c83f7cd1a1a931ca2ee50537fb100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220771558,
+        "stop" : 1547220775153,
+        "duration" : 3595
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Typetest",
+      "uid" : "ce9c9252550d8c18",
+      "parentUid" : "a86c83f7cd1a1a931ca2ee50537fb100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220775154,
+        "stop" : 1547220777362,
+        "duration" : 2208
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a86c83f7cd1a1a931ca2ee50537fb100"
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "uid" : "7c9d4401fbcc82cc",
+  "name" : "Github test",
+  "fullName" : "my webdriverio tests.Github test",
+  "historyId" : "853d2457e8c6f1249331030383a0d770",
+  "time" : {
+    "start" : 1547220690894,
+    "stop" : 1547220694351,
+    "duration" : 3457
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Github test"
+  }, {
+    "name" : "package",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c9d4401fbcc82cc.json",
+  "parameterValues" : [ "chrome" ]
+}

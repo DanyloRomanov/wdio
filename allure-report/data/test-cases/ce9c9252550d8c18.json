@@ -1,0 +1,154 @@
+{
+  "uid" : "ce9c9252550d8c18",
+  "name" : "Typetest",
+  "fullName" : "my webdriverio tests.Typetest",
+  "historyId" : "2ed8c650b7f2489392c1f8dea69e41ff",
+  "time" : {
+    "start" : 1547220775154,
+    "stop" : 1547220777362,
+    "duration" : 2208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1547220775156,
+        "stop" : 1547220775185,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed245e0a77f633b7",
+        "name" : "Request",
+        "source" : "ed245e0a77f633b7.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "14bf2085354f049a",
+        "name" : "Response",
+        "source" : "14bf2085354f049a.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/0.036610526094647655-1/clear",
+      "time" : {
+        "start" : 1547220775224,
+        "stop" : 1547220775262,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/0.036610526094647655-1/value",
+      "time" : {
+        "start" : 1547220775269,
+        "stop" : 1547220775361,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2c8bfccfef5aaf2",
+        "name" : "Request",
+        "source" : "b2c8bfccfef5aaf2.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typetest"
+  }, {
+    "name" : "package",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71c5f3f0d193ffd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220694352,
+        "stop" : 1547220696555,
+        "duration" : 2203
+      }
+    }, {
+      "uid" : "8db5911fbc8be79a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220586403,
+        "stop" : 1547220588618,
+        "duration" : 2215
+      }
+    }, {
+      "uid" : "cd80753e1499df4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220264664,
+        "stop" : 1547220266906,
+        "duration" : 2242
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce9c9252550d8c18.json",
+  "parameterValues" : [ "chrome" ]
+}

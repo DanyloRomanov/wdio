@@ -1,0 +1,55 @@
+{
+  "uid" : "8db5911fbc8be79a",
+  "name" : "Typetest",
+  "fullName" : "my webdriverio tests.Typetest",
+  "historyId" : "2ed8c650b7f2489392c1f8dea69e41ff",
+  "time" : {
+    "start" : 1547220586403,
+    "stop" : 1547220588618,
+    "duration" : 2215
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typetest"
+  }, {
+    "name" : "package",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8db5911fbc8be79a.json",
+  "parameterValues" : [ "chrome" ]
+}

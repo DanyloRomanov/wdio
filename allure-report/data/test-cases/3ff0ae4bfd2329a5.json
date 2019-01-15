@@ -1,0 +1,133 @@
+{
+  "uid" : "3ff0ae4bfd2329a5",
+  "name" : "Github test",
+  "fullName" : "my webdriverio tests.Github test",
+  "historyId" : "853d2457e8c6f1249331030383a0d770",
+  "time" : {
+    "start" : 1547220771558,
+    "stop" : 1547220775153,
+    "duration" : 3595
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1547220771569,
+        "stop" : 1547220773138,
+        "duration" : 1569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bd1b7f2fa8713e5",
+        "name" : "Request",
+        "source" : "7bd1b7f2fa8713e5.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1547220775140,
+        "stop" : 1547220775153,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6f8a2bd88f25ef",
+        "name" : "Response",
+        "source" : "e6f8a2bd88f25ef.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Github test"
+  }, {
+    "name" : "package",
+    "value" : "my webdriverio tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7c9d4401fbcc82cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220690894,
+        "stop" : 1547220694351,
+        "duration" : 3457
+      }
+    }, {
+      "uid" : "c3dd41fb721e766a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220583014,
+        "stop" : 1547220586403,
+        "duration" : 3389
+      }
+    }, {
+      "uid" : "4abfd2a91fcf2588",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547220261190,
+        "stop" : 1547220264663,
+        "duration" : 3473
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ff0ae4bfd2329a5.json",
+  "parameterValues" : [ "chrome" ]
+}

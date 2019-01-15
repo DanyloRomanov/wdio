@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547556046149' stop='1547556059253'>
+    <name>my webdriverio tests</name>
+    <title>my webdriverio tests</title>
+    <test-cases>
+        <test-case start='1547556046151' status='passed' stop='1547556056977'>
+            <name>Github test</name>
+            <title>Github test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1547556046177' status='passed' stop='1547556054940'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a06e6b93-a1d0-4286-a042-0b628ae10390-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547556056942' status='passed' stop='1547556056976'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e1795807-0739-4868-860b-6726739d59a0-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1547556056977' status='passed' stop='1547556059251'>
+            <name>Typetest</name>
+            <title>Typetest</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1547556056980' status='passed' stop='1547556057008'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2190df86-665a-4498-b8ae-45d8801530d4-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='9f4d81fc-b162-44d0-b544-b857763fce8a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547556057052' status='passed' stop='1547556057075'>
+                    <name>POST /session/:sessionId/element/87e23c73-d476-4bf9-a6b8-9eeda07ce1e7/clear</name>
+                    <title>POST /session/:sessionId/element/87e23c73-d476-4bf9-a6b8-9eeda07ce1e7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1547556057075' status='passed' stop='1547556057250'>
+                    <name>POST /session/:sessionId/element/87e23c73-d476-4bf9-a6b8-9eeda07ce1e7/value</name>
+                    <title>POST /session/:sessionId/element/87e23c73-d476-4bf9-a6b8-9eeda07ce1e7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='385d02f3-c919-417a-9b26-6342145ca979-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
